@@ -134,7 +134,7 @@ struct SymbolPaintProperties {
 struct PropertyType {
     /// Whether the property is data-driven and has value in data-driven block or constant uniform.
     bool isDataDriven;
-     /// Whether the property is zoom-dependent and has two values that need to be interpolated between zooms.
+    /// Whether the property is zoom-dependent and has two values that need to be interpolated between zooms.
     bool isZoomDependent;
     /// Local offset within the data-driven block (in dwords).
     ///
